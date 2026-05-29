@@ -284,7 +284,7 @@ class list
 		}
 	}
 
-	friend void swap(list& l, r) { l.swap(r); }
+	friend void swap(list& l, list& r) { l.swap(r); }
 
 #pragma region iterators
 
