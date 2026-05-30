@@ -474,4 +474,5 @@ class basic_string
 		data_.short_str.buffer[0] = T(0);
 	}
 };
+
 }  // namespace bmstu
